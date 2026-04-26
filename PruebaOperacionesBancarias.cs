@@ -46,7 +46,7 @@ namespace verificaciones
             Cuenta cuenta = cliente.GetCuenta(0);
             Console.WriteLine("Retira 150.00: " + cuenta.Retira(150.00));
             Console.WriteLine("Deposita 22.50: " + cuenta.Deposita(22.50));
-            Console.WriteLine("Retira 47.62: " + cuenta.Retira(150.00));
+            Console.WriteLine("Retira 47.62: " + cuenta.Retira(47.62));
             Console.WriteLine("Retira 400.00: " + cuenta.Retira(400.00));
             Console.WriteLine("Cliente [" + cliente.Apellido + ", "
                     + cliente.PrimerNombre + "] tiene un balance de "
@@ -59,7 +59,7 @@ namespace verificaciones
             cuenta = cliente.GetCuenta(0);
             Console.WriteLine("Retira 150.00: " + cuenta.Retira(150.00));
             Console.WriteLine("Deposita 22.50: " + cuenta.Deposita(22.50));
-            Console.WriteLine("Retira 47.62: " + cuenta.Retira(150.00));
+            Console.WriteLine("Retira 47.62: " + cuenta.Retira(47.62));
             Console.WriteLine("Retira 400.00: " + cuenta.Retira(400.00));
             Console.WriteLine("Cliente [" + cliente.Apellido + ", "
                     + cliente.PrimerNombre + "] tiene un balance de "
@@ -72,7 +72,7 @@ namespace verificaciones
             cuenta = cliente.GetCuenta(0);
             Console.WriteLine("Retira 150.00: " + cuenta.Retira(150.00));
             Console.WriteLine("Deposita 22.50: " + cuenta.Deposita(22.50));
-            Console.WriteLine("Retira 47.62: " + cuenta.Retira(150.00));
+            Console.WriteLine("Retira 47.62: " + cuenta.Retira(47.62));
             Console.WriteLine("Retira 400.00: " + cuenta.Retira(400.00));
             Console.WriteLine("Cliente [" + cliente.Apellido + ", "
                     + cliente.PrimerNombre + "] tiene un balance de "
